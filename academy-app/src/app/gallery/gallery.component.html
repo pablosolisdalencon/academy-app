@@ -1,1 +1,9 @@
-<p>gallery works!</p>
+<!-- app.component.html -->
+<div class="gallery-container">
+    <mat-grid-list cols="3" gutterSize="16px">
+      <mat-grid-tile *ngFor="let image of galleryImages">
+        <img [src]="image.src" alt="{{ image.alt }}">
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+  
