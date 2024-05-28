@@ -1,5 +1,6 @@
 /* app.component.css */
 .gallery-container {
+  height: 80%;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -11,6 +12,6 @@
   }
   
   img {
-    width: 100%;
+    width: auto;
     height: auto;
   }
